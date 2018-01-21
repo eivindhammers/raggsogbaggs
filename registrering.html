@@ -57,6 +57,53 @@
 </section>
 
 
+<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="eivindhammers@gmail.com" action="https://script.google.com/macros/s/AKfycbwSr6SXU8aRbwOw5tqwMtKKjCAgchdM5HAMBtYPZN7o660Zb52w/exec">
+
+    <!--text-field-->
+    <fieldset class="pure-group">
+      <label for="text">Navn: </label>
+      <input id="text" name="Navn" required value="" />
+    </fieldset>
+
+    <!--menu-->
+    <fieldset class="pure-group">
+      <label for="menu">Kommer du?</label>
+      <select id="menu" name="Kommer">
+        <option selected>Ja</option>
+        <option>Nei</option>
+      </select>
+    </fieldset>
+
+    <!--text-area-->
+    <fieldset class="pure-group">
+      <label for="text-area">Eventuell kommentar: </label>
+      <textarea id="text-area" name="Kommentar" rows="2"></textarea>
+    </fieldset>
+
+    <!--email-->
+    <fieldset class="pure-group">
+      <label for="email">Din e-postadresse:</label>
+      <input id="email" name="email" type="email" required value="" />
+      <span id="email-invalid" style="display:none">
+        Vennligst oppgi en gyldig e-postadresse</span>
+    </fieldset>
+
+    <!--submit/button-->
+    <button class="button-success pure-button button-large">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send
+    </button>
+
+</form>
+
+<div style="display:none;" id="thankyou_message">
+  <h2>
+    Svaret ditt er registrert. Takk for at du ønsker å komme i Bryllupet vårt! 
+    <br>
+    &lt;3 Ragnhild og Bjarte
+</h2>
+</div>
+
+
   <section class="engine"><a href="https://mobirise.ws/q">offline website builder download</a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
