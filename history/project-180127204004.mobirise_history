@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "raggsogbaggs.com",
-    "currentPage": "index.html",
+    "currentPage": "registrering_mobirise.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 78,
     "versionPublish": "4.6.3",
@@ -39,10 +39,12 @@
         "#000000"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/logo-liten-2.png",
+    "favicon": "@PROJECT_PATH@/assets/images/hearts-skyline-compact-2000x1232-128x78.png",
     "noImageResize": "true",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/eivinol/Github/raggsandbjarts4"
   },
   "pages": {
     "index.html": {
