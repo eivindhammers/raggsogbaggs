@@ -73,39 +73,44 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
-                    <div data-form-alert="" hidden="">Takk for svaret ditt!</div>
-            
-                    <form id="gform" class="mbr-form" action="https://script.google.com/macros/s/AKfycbwSr6SXU8aRbwOw5tqwMtKKjCAgchdM5HAMBtYPZN7o660Zb52w/exec" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="ZQOmauP4Lw14YRHk7zd37r04BHpzD3WiQqm5IUt9HFKpgG5Obwmq9f1p9Wd4YAjbekkBWUMZDh1XfRBxojEVQoXqfTp/h+0G57ZDgL1npWwtxLPOFL2Ag5SSk06WUxE9" data-form-field="Email">
+                                
+                    <form id="gform" class="mbr-form" action="https://script.google.com/macros/s/AKfycbwSr6SXU8aRbwOw5tqwMtKKjCAgchdM5HAMBtYPZN7o660Zb52w/exec" method="post">
                         <div class="row row-sm-offset">
-                            <div class="col-md-6 multi-horizontal" data-for="name">
+                            <div class="col-md-6 multi-horizontal">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="name" data-form-field="Name" required="" placeholder="Fullt navn" id="name-form1-1t">
+                                    <input type="text" class="form-control" name="Navn" required="" placeholder="Fullt navn" id="name-form1-1t">
                                 </div>
                             </div>
-                            <div class="col-md-6 multi-horizontal" data-for="email">
+                            <div class="col-md-6 multi-horizontal">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" name="email" data-form-field="Email" required="" placeholder="E-post" id="email-form1-1t">
+                                    <input type="email" class="form-control" name="email" required="" placeholder="E-post" id="email-form1-1t">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group" data-for="message">
-                            <textarea type="text" class="form-control" name="message" rows="1" data-form-field="Message" placeholder="Eventuell kommentar (f.eks. matallergi)" id="message-form1-1t"></textarea>
+                            <textarea type="text" class="form-control" name="Kommentar" rows="1" placeholder="Eventuell kommentar (f.eks. matallergi)" id="message-form1-1t"></textarea>
                         </div>
                         <div class="row row-sm-offset">
-                            <div class="col-md-6 multi-horizontal" data-for="name">
+                            <div class="col-md-6 multi-horizontal">
                               <div class="form-group">
                                   <select class="form-control px-3" id="menu" name="Kommer" required="">
-                                      <option disabled selected hidden>Kommer du?</option>
+                                      <option value="">Kommer du?</option>
                                       <option value="Ja">Jeg kommer</option>
                                       <option value="Nei">Jeg kommer ikke</option>
                                   </select>
                               </div>
                             </div>
-                            <div class="col-md-6 multi-horizontal" data-for="email">
-                                <span class="input-group-btn"><button href="" type="submit" class="btn btn-form btn-success display-4">SEND SVAR</button></span>
+                            <div class="col-md-6 multi-horizontal">
+                                <span class="input-group-btn"><button href="" class="btn btn-form btn-success display-4">SEND SVAR</button></span>
                             </div>
                         </div>
                     </form>
+                <div style="display:none;" id="thankyou_message">
+                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+
+                        Takk for svaret ditt!
+                    </p>
+                </div>
             </div>
         </div>
     </div>
