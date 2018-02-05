@@ -40,10 +40,12 @@
         "#f8f8f8"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/logo-liten-2.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-liten_2.png",
     "noImageResize": "true",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///Users/eivindhammers/GitHub/raggsandbjarts4"
   },
   "pages": {
     "index.html": {
