@@ -1855,6 +1855,21 @@ body {
     -webkit-justify-content: center;
   }
 }
+.cid-qITOKpkzPW {
+  background-image: url("../../../assets/images/hearts-skyline-compact-2000x1232.png");
+}
+.cid-qITOKpkzPW H1 {
+  color: #43567d;
+}
+.cid-qITOKpkzPW .mbr-text,
+.cid-qITOKpkzPW .mbr-section-btn {
+  color: #43567d;
+  text-align: right;
+}
+.cid-qITOKpkzPW H3 {
+  text-align: right;
+  color: #43567d;
+}
 .cid-qHmYfSV3Pu .navbar {
   padding: .5rem 0;
   background: #cde6c9;
@@ -2243,21 +2258,6 @@ body {
 .cid-qHmYfSV3Pu .nav-link:hover,
 .cid-qHmYfSV3Pu .dropdown-item:hover {
   color: #149dcc !important;
-}
-.cid-qHmYfTIdK6 {
-  background-image: url("../../../assets/images/hearts-skyline-compact-2000x1232.png");
-}
-.cid-qHmYfTIdK6 H1 {
-  color: #43567d;
-}
-.cid-qHmYfTIdK6 .mbr-text,
-.cid-qHmYfTIdK6 .mbr-section-btn {
-  color: #43567d;
-  text-align: right;
-}
-.cid-qHmYfTIdK6 H3 {
-  text-align: right;
-  color: #43567d;
 }
 .cid-qIJ6znyvGl {
   padding-top: 60px;
